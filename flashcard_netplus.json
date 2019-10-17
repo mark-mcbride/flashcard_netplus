@@ -1,0 +1,1094 @@
+[
+ {
+   "question": "What is a node?",
+   "answer": "Any device on the network that actively transmits and receives information.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a host?",
+   "answer": "A node that serves as a beginning or endpoint of communication.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is media?",
+   "answer": "Physical path connecting nodes.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is data?",
+   "answer": "Information carried by the media.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the smallest unit of data?",
+   "answer": "Bit.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a networking device?",
+   "answer": "Node that functions as part of the network structure.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SSH?",
+   "answer": "22/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is DNS?",
+   "answer": "53/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SMTP",
+   "answer": "25/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SFTP",
+   "answer": "22/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is FTP?",
+   "answer": "20 (data), 21 (control)/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is TFTP?",
+   "answer": "69/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is Telnet?",
+   "answer": "23/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is DHCP?",
+   "answer": "67,68/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is HTTP?",
+   "answer": "80/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is HTTPS?",
+   "answer": "443/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SNMP?",
+   "answer": "161/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is RDP?",
+   "answer": "3389/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is NTP?",
+   "answer": "123/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SIP?",
+   "answer": "5060,5061/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SMB?",
+   "answer": "445/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is POP3?",
+   "answer": "110/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is IMAP4",
+   "answer": "143/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is LDAP?",
+   "answer": "389/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is LDAPS?",
+   "answer": "636/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is H.323?",
+   "answer": "1720/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port is IPSec?",
+   "answer": "50,51",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is NetBIOS?",
+   "answer": "137-138/udp, 138-139/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is RTP?",
+   "answer": "5004,5005/tcp and udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is VNC?",
+   "answer": "5900 +n, where n=display number/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What ports range are System Ports?",
+   "answer": "1-1023",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What ports range are User Ports?",
+   "answer": "1024-49151",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How are User Ports generally used?",
+   "answer": "Software developers use them for applications.",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What ports range are Private Ports?",
+   "answer": "49152-65535",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What OSI layer is TCP?",
+   "answer": "Transport Layer (4)",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What OSI layer is HTTP?",
+   "answer": "Application Layer (7)",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What OSI layer is responsible for character encoding, data compression, and encryption/decryption?",
+   "answer": "Presentation Layer (6)",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 1?",
+   "answer": "Physical Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 2?",
+   "answer": "Data Link Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 3?",
+   "answer": "Network Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 4?",
+   "answer": "Transport Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 5?",
+   "answer": "Session Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 6?",
+   "answer": "Presentation Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is OSI Layer 7?",
+   "answer": "Application Layer",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for OSI Layer 1?",
+   "answer": "bits",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for the Physical Layer of the OSI model?",
+   "answer": "bits",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for OSI Layer 2?",
+   "answer": "frame",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for the Data Link Layer of the OSI model?",
+   "answer": "frame",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for OSI Layer 3?",
+   "answer": "packet",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for the Network Layer of the OSI model?",
+   "answer": "packet",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for OSI Layer 4?",
+   "answer": "segment",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the PDU for the Transport Layer of the OSI model?",
+   "answer": "segment",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What happens at the Data Link Layer?",
+   "answer": "Locical Link Control and Media Access Control",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How are source and destinations managed at the Data Link Layer?",
+   "answer": "MAC addresses",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How are source and destinations managed at the Network Layer?",
+   "answer": "IP addresses",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What protocol assigns MAC addresses?",
+   "answer": "ARP",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is ARP?",
+   "answer": "Address Resolution Protocol, maps IP addresses to MAC addresses",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the rules for writing an IPv6 address?",
+   "answer": "1. You can group multiple sets of \"0000\" with \"::\" one time.  2. You can drop leading zeros. 3. you can replace \"0000\" with \"0\".",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is the subnet mask used?",
+   "answer": "It is used by the local workstation to determine which subnet it's on.",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How many bits is an IPv6 address?",
+   "answer": "128 bits",
+   "topic": "osi model",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does the command pathping do?",
+   "answer": "Windows command like tracert which pings each router 100 times (default) to generate packet loss and latency information.",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "Does traceroute work in Windows?",
+   "answer": "No, the command is tracert in Windows.",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What command returns active connections?",
+   "answer": "netstat",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does the command ipconfig do?",
+   "answer": "In Windows, it displays settings for installed network interfaces, IPv4 and IPv6 addresses, subnet mask, and default gateway.",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does the command ifconfig do?",
+   "answer": "In Linux, it displays settings for installed network interfaces, IPv4 and IPv6 addresses, subnet mask, and default gateway.",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is LACP?",
+   "answer": "Link Aggregation Control Protocol",
+   "topic": "routing",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How manysubnets does the mask produce?",
+   "answer": "2^x where x=the number of masked bits (ones)",
+   "topic": "subnetting",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How many valid hosts per subnet are available?",
+   "answer": "2^y-2 where y=the number of unmasked bits (zeros)",
+   "topic": "subnetting",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the valid subnets?",
+   "answer": "256-subnet mask=block size",
+   "topic": "subnetting",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the broadcast of each subnet?",
+   "answer": "Highest number below the next subnet (last is always 255)",
+   "topic": "subnetting",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are valid hosts in each subnet?",
+   "answer": "Numbers between subnet address and broadcast address of each subnet",
+   "topic": "subnetting",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is CHAP?",
+   "answer": "Challenge Handshake Authentication Protocol",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the most secure EAP?",
+   "answer": "Protected EAP (PEAP)",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "Which forms of EAP use x.509 certificates for authentication?",
+   "answer": "EAP-TLS and EAP-TTLS",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "Which form of EAP is used by Cisco hardware?",
+   "answer": "Lightweight EAP (LEAP)",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "Which form of EAP is used by GSM cellular networks?",
+   "answer": "EAP-SIM",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What protocol does a RADIUS Server use?",
+   "answer": "UDP",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What protocol does TACACS+ use?",
+   "answer": "TCP",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What company makes TACACS+?",
+   "answer": "Cisco",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What supports more non-IP protocols, RADIUS or TACACS?",
+   "answer": "TACACS+",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is more resource intensive, RADIUS or TACACS?",
+   "answer": "TACACS+",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What technologies are covered by 802.1x?",
+   "answer": "WPA enterprize and WPA2 enterprize",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the innermost layer of the Defense in depth strategy?",
+   "answer": "Data",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the 2nd innermost layer of the Defense in depth strategy?",
+   "answer": "Application",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the 3rd innermost layer of the Defense in depth strategy?",
+   "answer": "Host",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the central (4th) layer of the Defense in depth strategy?",
+   "answer": "Internal network",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "what is the 5th (3rd from outside) layer of the Defense in depth strategy?",
+   "answer": "Perimeter network",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "what is the 7th (2nd from outside) layer of the Defense in depth strategy?",
+   "answer": "Physical facility",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the outermost layer of the Defense in depth strategy?",
+   "answer": "Users and organization",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What device is used to scan for open ports?",
+   "answer": "Port scanner",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How do you prevent SQL injection?",
+   "answer": "input validation",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What device is often called a sniffer?",
+   "answer": "protocol analyzer",
+   "topic": "security",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What servise should receive the highest Quality of Service (Qos)?",
+   "answer": "VOIP",
+   "topic": "evolving tech",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a PBX?",
+   "answer": "Private branch exchange",
+   "topic": "evolving tech",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is h.323?",
+   "answer": "Most mature phone",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are 2 benefits of SIP?",
+   "answer": "Open and extensible",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is SCCP?",
+   "answer": "Skinny Client Control Protocol, Cisco proprietary",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does a SIP trunk do?",
+   "answer": "Connects IP PBX to PSTN.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the most common legacy ICS technologies?",
+   "answer": "SCADA and DCS",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is SCADA?",
+   "answer": "Supervisory Control and Data Acquisition, developed for large scale distribution systems.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is DCS?",
+   "answer": "Distributed Control System, designed to extend process control systems in refineries and industrial plants.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the advantages of PLC?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is DAS?",
+   "answer": "Directly attached storage.",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is NAS?",
+   "answer": "Network attached storage.",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What type of memory is used in storage?",
+   "answer": "RAID",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does a Storage Area Network do differently from a NAS?",
+   "answer": "Allocates at block-level and protects from simultaneous access by multiple hosts.",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What does a SAN use to",
+   "answer": "Host Based Adapter instead of NIC cards, Fiber Channel, Fiber Channel Protocol (FCP) link speeds up to 16Gbps, SCSI for high level operations.",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What method is typically used to improve Qos?",
+   "answer": "Best Effort method",
+   "topic": "storage",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What method of prioritization expedites video, voice, or data traffic?",
+   "answer": "Latency based",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What method of prioritization expedites network traffic?",
+   "answer": "Time based",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What QoS method is included in the frame header?",
+   "answer": "802.1p",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What role does a hyvervisor serve?",
+   "answer": "Abstraction layer between host operating system and VM operating systems.",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a type 1 hypervisor?",
+   "answer": "bare metal",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "what is a type 2 hypervisor?",
+   "answer": "host based",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a host in regard to virtualization?",
+   "answer": "Physical hardware that ultimately hosts all virtual infrastructure.",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is container virtualization?",
+   "answer": "Host uses one OS and splits filing systems into containers.",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How does a VM access the network?",
+   "answer": "Virtual NIC (VNIC), hypervisor performs NAT, or bridged adapter to external IP.",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the NIST standards for cloud service?",
+   "answer": "On demand self-service, broad network access, resource pooling, rapid elasticity, measured service.",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the major cloud service models?",
+   "answer": "Software as a service, Platform as a service, Infrastructure as a service",
+   "topic": "virtualization",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the two planes of Software Defined Networking?",
+   "answer": "Control plane and data plane.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the control plane of SDN?",
+   "answer": "Makes decisions about traffic flow, routing protocols, switching protocols, QoS�",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the data plane of SDN?",
+   "answer": "Moves frames and packets through network,routing packets, scheduling queues, reading routing tables and ARP values.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is an example of a common Network Analyzer?",
+   "answer": "Wireshark",
+   "topic": "tools",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is an example of a common SNMP management software?",
+   "answer": "HP Openview",
+   "topic": "tools",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is an example of a common SIEM management software?",
+   "answer": "Splunk",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the most secure version of SNMP?",
+   "answer": "SNMPv3",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the Syslog severity levels?",
+   "answer": "0. Emergency 1. Alert 2. Critical 3. Error 4. Warning 5. Notice 6. Informational 7. Debug",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the benefits of SIEM software?",
+   "answer": "Aggregation, Correlation, Alerts, Log Retention, Analysis tools",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between a proxy server and a load balancer?",
+   "answer": "Proxy server caches common queries and serves them when requested, while load balancer spreads the load among multiple servers.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "A high discard rate may be a symptom of what network problem?",
+   "answer": "Congestion",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a fault tolerant system?",
+   "answer": "System which can continue to operate in the event of a critical hardware or software failure.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a high availability system?",
+   "answer": "System with 99.999% or greater uptime (5.26 minutes downtime per year).",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is MTTF?",
+   "answer": "Mean time to failure: average time it takes for a newly installed device to fail.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is MTTR?",
+   "answer": "Mean time to repair: the average time to repair a serviceable device.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is MTBF?",
+   "answer": "Mean time between failures: averave uptime between failures on a serviceable device.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is MTBSI?",
+   "answer": "Mean time between service incidents: average time between failures including repair time.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is AFR?",
+   "answer": "Annualized failure rate: percentage of units expected to fail in one year.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is RTO?",
+   "answer": "Recovery time objective: maximum expected downtime from disaster.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is RPO?",
+   "answer": "Recovery point objective: maximum amount of data measured in time to be lost in a disaster.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What term describes a redundant part which can be replaced without interrupting service?",
+   "answer": "Hot swappable",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is backup power used to increase redundancy?",
+   "answer": "Uninterpretable power supply (UPS), redundant power supply, or backup generator provides redundancy during blackouts, brownouts, and sags.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is RAID used to increase network redundancy?",
+   "answer": "Redundant array of independent disks: saves data to multiple hard drives at once.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How are network topologies used to increase network redundancy?",
+   "answer": "Mesh topology, NIC teaming, and port aggregation create redundant paths.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is load balancing used to increase redundancy?",
+   "answer": "Failure of one server reduces performance but does not interrupt service.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How does clustering increase redundancy?",
+   "answer": "Multiple servers in a cluster can dynamically reallocate duties after detecting the failure of one or more server.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is virtualization used to increase redundancy?",
+   "answer": "Flexible on demand solutions can be stood up quickly and automatically.",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a hot spare?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a cold spare",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a hot site",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a cold site",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a warm site",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a full backup?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is an incremental backup?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a differential backup?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is a snapshot backup?",
+   "answer": "",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ }
+]
