@@ -2,42 +2,259 @@
  {
    "question": "What is a node?",
    "answer": "Any device on the network that actively transmits and receives information.",
-   "topic": "",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a host?",
    "answer": "A node that serves as a beginning or endpoint of communication.",
-   "topic": "",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is media?",
    "answer": "Physical path connecting nodes.",
-   "topic": "",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is data?",
    "answer": "Information carried by the media.",
-   "topic": "",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the smallest unit of data?",
    "answer": "Bit.",
-   "topic": "",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a networking device?",
    "answer": "Node that functions as part of the network structure.",
-   "topic": "",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What device separates collision domains?",
+   "answer": "Switch",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What device separates broadcast domains?",
+   "answer": "Router",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the first octet decimal range of a class A subnet?",
+   "answer": "1-126",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the first octet decimal range of a class B subnet?",
+   "answer": "128-191",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the first octet decimal range of a class C subnet?",
+   "answer": "182-223",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the first octet decimal range of a class D subnet?",
+   "answer": "224-239",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the first octet decimal range of a class E subnet?",
+   "answer": "240-254",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the default subnet mask of a class A subnet?",
+   "answer": "255.0.0.0",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the default subnet mask of a class B subnet?",
+   "answer": "255.255.0.0",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the default subnet mask of a class C subnet?",
+   "answer": "255.255.255.0",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the first octet high order bits of a class A subnet?",
+   "answer": "0",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the first octet high order bits of a class B subnet?",
+   "answer": "10",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the first octet high order bits of a class C subnet?",
+   "answer": "110",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the first octet high order bits of a class D subnet?",
+   "answer": "1110",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the first octet high order bits of a class E subnet?",
+   "answer": "1111",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the address range of a class A network?",
+   "answer": "10.0.0.0-10.255.255.255",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the address range of a class B network?",
+   "answer": "172.16.0.0 - 172.31.255.255",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the address range of a class C network?",
+   "answer": "192.168.0.0 - 192.168.255.255",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the loopback address?",
+   "answer": "127.0.0.0 (127.x.y.z)",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the address for APIPA?",
+   "answer": "169.254.x.y",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How many networks are available on a subnet?",
+   "answer": "2^x where x=number of 1s set",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How many hosts are available on a network?",
+   "answer": "2^y where y=number of zeroes set",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What are the rules for writing an IPv6 address?",
+   "answer": "1. You can group multiple sets of \"0000\" with \"::\" one time.  2. You can drop leading zeros. 3. you can replace \"0000\" with \"0\".",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is the subnet mask used?",
+   "answer": "It is used by the local workstation to determine which subnet it's on.",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is CIDR notation for a network with the subnet mask of 255.255.255.0?",
+   "answer": "slash 24",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How many bits is an IPv6 address?",
+   "answer": "128 bits",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the top level domain?",
+   "answer": ".com, .net etc",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service translates a url to an ip address?",
+   "answer": "DNS",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What type of DNS record translates url to ipv4 address?",
+   "answer": "a record",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What type of DNS record translates url to ipv6 address?",
+   "answer": "aaaaa record",
+   "topic": "networking basics",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What type of DNS record translates a domain to a mailserver?",
+   "answer": "mx record",
+   "topic": "networking basics",
    "netplus": true,
    "secplus": true
  },
@@ -63,6 +280,13 @@
    "secplus": true
  },
  {
+   "question": "What port/protocol is SMTPS",
+   "answer": "465/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
    "question": "What port/protocol is SFTP",
    "answer": "22/tcp",
    "topic": "standard ports",
@@ -72,6 +296,13 @@
  {
    "question": "What port/protocol is FTP?",
    "answer": "20 (data), 21 (control)/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is FTPS?",
+   "answer": "989 (data), 990 (control)/tcp",
    "topic": "standard ports",
    "netplus": true,
    "secplus": true
@@ -154,8 +385,22 @@
    "secplus": true
  },
  {
-   "question": "What port/protocol is IMAP4",
+   "question": "What port/protocol is POP3S?",
+   "answer": "995/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is IMAP4?",
    "answer": "143/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is IMAPS?",
+   "answer": "993/tcp",
    "topic": "standard ports",
    "netplus": true,
    "secplus": true
@@ -183,7 +428,7 @@
  },
  {
    "question": "What port is IPSec?",
-   "answer": "50,51",
+   "answer": "4500 (NAT traversal mode), 500 (IKE), 50 (ESP), 51 (AH)",
    "topic": "standard ports",
    "netplus": true,
    "secplus": true
@@ -233,6 +478,293 @@
  {
    "question": "What ports range are Private Ports?",
    "answer": "49152-65535",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is DHCP?",
+   "answer": "67,68/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is SCP?",
+   "answer": "22/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is RADIUS?",
+   "answer": "1812/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is TACACS+?",
+   "answer": "49/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is Kerberos?",
+   "answer": "88/udp (tcp for large tickets)",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is Syslog?",
+   "answer": "514/udp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is MSSQL?",
+   "answer": "1433/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is LZTP?",
+   "answer": "1701/ppp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is PPTP?",
+   "answer": "1723/gre",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What port/protocol is Jet Direct?",
+   "answer": "9100/tcp",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on ports 20 and 21?",
+   "answer": "FTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What services run on port 22?",
+   "answer": "SSH, SCP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 23?",
+   "answer": "Telnet",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 25?",
+   "answer": "SMTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 49?",
+   "answer": "TACACS+",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 53?",
+   "answer": "DNS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on ports 67 and 68?",
+   "answer": "DHCP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 69?",
+   "answer": "TFTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 80?",
+   "answer": "HTTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 88?",
+   "answer": "Kerberos",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 110?",
+   "answer": "POP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 123?",
+   "answer": "NTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on ports 137-139?",
+   "answer": "NetBIOS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 143?",
+   "answer": "IMAP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 161?",
+   "answer": "SNMP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 389?",
+   "answer": "LDAP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 443?",
+   "answer": "HTTPS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 445?",
+   "answer": "SMB",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 465?",
+   "answer": "SMTPS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 500?",
+   "answer": "IPSEC",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 514?",
+   "answer": "Syslog",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 636?",
+   "answer": "LDAPS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on ports 989 and 990?",
+   "answer": "FTPS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 993?",
+   "answer": "IMAPS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 995?",
+   "answer": "POP3S",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 1433?",
+   "answer": "MSSQL",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 1701?",
+   "answer": "L2TP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 1723?",
+   "answer": "PPTP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 1812?",
+   "answer": "RADIUS",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 3389?",
+   "answer": "RDP",
+   "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What service runs on port 9100?",
+   "answer": "Jet Direct",
    "topic": "standard ports",
    "netplus": true,
    "secplus": true
@@ -399,27 +931,6 @@
    "secplus": true
  },
  {
-   "question": "What are the rules for writing an IPv6 address?",
-   "answer": "1. You can group multiple sets of \"0000\" with \"::\" one time.  2. You can drop leading zeros. 3. you can replace \"0000\" with \"0\".",
-   "topic": "osi model",
-   "netplus": true,
-   "secplus": true
- },
- {
-   "question": "How is the subnet mask used?",
-   "answer": "It is used by the local workstation to determine which subnet it's on.",
-   "topic": "osi model",
-   "netplus": true,
-   "secplus": true
- },
- {
-   "question": "How many bits is an IPv6 address?",
-   "answer": "128 bits",
-   "topic": "osi model",
-   "netplus": true,
-   "secplus": true
- },
- {
    "question": "What does the command pathping do?",
    "answer": "Windows command like tracert which pings each router 100 times (default) to generate packet loss and latency information.",
    "topic": "network commands",
@@ -434,7 +945,7 @@
    "secplus": true
  },
  {
-   "question": "What command returns active connections?",
+   "question": "What command returns active tcp/ip connections?",
    "answer": "netstat",
    "topic": "network commands",
    "netplus": true,
@@ -455,16 +966,30 @@
    "secplus": true
  },
  {
-   "question": "What is LACP?",
-   "answer": "Link Aggregation Control Protocol",
-   "topic": "routing",
+   "question": "How do you open command prompt as administrator?",
+   "answer": "cmd ctrl shift enter",
+   "topic": "network commands",
    "netplus": true,
    "secplus": true
  },
  {
-   "question": "",
-   "answer": "",
-   "topic": "",
+   "question": "How do you traceroute in Windows?",
+   "answer": "tracert",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What command displays DNS information?",
+   "answer": "ipconfig -displaydns",
+   "topic": "network commands",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is LACP?",
+   "answer": "Link Aggregation Control Protocol",
+   "topic": "routing",
    "netplus": true,
    "secplus": true
  },
@@ -653,70 +1178,70 @@
  {
    "question": "What servise should receive the highest Quality of Service (Qos)?",
    "answer": "VOIP",
-   "topic": "evolving tech",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a PBX?",
    "answer": "Private branch exchange",
-   "topic": "evolving tech",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is h.323?",
    "answer": "Most mature phone",
-   "topic": "",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are 2 benefits of SIP?",
    "answer": "Open and extensible",
-   "topic": "",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is SCCP?",
    "answer": "Skinny Client Control Protocol, Cisco proprietary",
-   "topic": "",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What does a SIP trunk do?",
    "answer": "Connects IP PBX to PSTN.",
-   "topic": "",
+   "topic": "voice",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the most common legacy ICS technologies?",
    "answer": "SCADA and DCS",
-   "topic": "",
+   "topic": "industrial systems",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is SCADA?",
    "answer": "Supervisory Control and Data Acquisition, developed for large scale distribution systems.",
-   "topic": "",
+   "topic": "industrial systems",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is DCS?",
    "answer": "Distributed Control System, designed to extend process control systems in refineries and industrial plants.",
-   "topic": "",
+   "topic": "industrial systems",
    "netplus": true,
    "secplus": true
  },
  {
-   "question": "What are the advantages of PLC?",
-   "answer": "",
-   "topic": "",
+   "question": "What are the advantages of DCS?",
+   "answer": "Real time data",
+   "topic": "industrial systems",
    "netplus": true,
    "secplus": true
  },
@@ -877,28 +1402,28 @@
  {
    "question": "What is an example of a common SIEM management software?",
    "answer": "Splunk",
-   "topic": "",
+   "topic": "tools",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the most secure version of SNMP?",
    "answer": "SNMPv3",
-   "topic": "",
+   "topic": "tools",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the Syslog severity levels?",
    "answer": "0. Emergency 1. Alert 2. Critical 3. Error 4. Warning 5. Notice 6. Informational 7. Debug",
-   "topic": "",
+   "topic": "tools",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the benefits of SIEM software?",
    "answer": "Aggregation, Correlation, Alerts, Log Retention, Analysis tools",
-   "topic": "",
+   "topic": "tools",
    "netplus": true,
    "secplus": true
  },
@@ -980,6 +1505,34 @@
    "secplus": true
  },
  {
+   "question": "What is SLE?",
+   "answer": "Single Loss Expectancy",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is ARO?",
+   "answer": "Annual Rate of Occurrence",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is ALE?",
+   "answer": "Annual Loss Expectancy (SLE * ARO)",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "How is a Quantitative Risk Assessment measured?",
+   "answer": "Annual Loss Expectancy (SLE * ARO)",
+   "topic": "",
+   "netplus": true,
+   "secplus": true
+ },
+ {
    "question": "What term describes a redundant part which can be replaced without interrupting service?",
    "answer": "Hot swappable",
    "topic": "",
@@ -1031,64 +1584,484 @@
  {
    "question": "What is a hot spare?",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a cold spare",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a hot site",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a cold site",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a warm site",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a full backup?",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is an incremental backup?",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a differential backup?",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a snapshot backup?",
    "answer": "",
-   "topic": "",
+   "topic": "policy",
    "netplus": true,
    "secplus": true
+ },
+ {
+   "question": "What is a policy?",
+   "answer": "",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is a standard?",
+   "answer": "",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is a guideline?",
+   "answer": "",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is a procedure?",
+   "answer": "",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What are 4 mobile device policies?",
+   "answer": "COBO, BYOD, COPE, CYOD ",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is COBO?",
+   "answer": "Corporate owned, business only",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is BYOD?",
+   "answer": "Bring your own device",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is COPE?",
+   "answer": "Corporate owned, personally enabled",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is CYOD?",
+   "answer": "Choose your own device",
+   "topic": "policy",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What are the differences between major and minor updates?",
+   "answer": "",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What are the steps of the change management process?",
+   "answer": "",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is a Qualitative Risk Assessment?",
+   "answer": "",
+   "topic": "risk management",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What are some mitigation techniques?",
+   "answer": "Technology controls, policies and procedures, routine audits, incident management, change management.",
+   "topic": "risk management",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What are the Risk Management methods?",
+   "answer": "Avoidance, transference, mitigation, deterrence, acceptance.",
+   "topic": "risk management",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is winserver.exe?",
+   "answer": "Remote Access Trojan",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What does a virus do?",
+   "answer": "Attaches milicious code to another file.",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What does a worm do?",
+   "answer": "Replicates itself by exploiting system vulnerabilities.",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What does a trojan do?",
+   "answer": "Masquerades as a harmless or useful program.",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What does a logic bomb do?",
+   "answer": "Lies dormant until certain condition is met.",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "How does a watering hole work?",
+   "answer": "Infect site to attack site's users.",
+   "topic": "malware vectors, attacks",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "",
+   "answer": "",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is the XMAS atack?",
+   "answer": "Network probe using TCP packet with all flags set.",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is fuzzing",
+   "answer": "Network probe using random or invalid data in header fields or data inputs.",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is banner grabbing?",
+   "answer": "Network probe sending routine packet to service.",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What type of encryption protects data in transit?",
+   "answer": "Transport encryption",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What type of encryption protects data at rest?",
+   "answer": "Storage encryption",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What type of encryption protects data in use?",
+   "answer": "Memory encryption",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How is code protected from reverse engineering?",
+   "answer": "Cryptographic obfuscation",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between confusion and diffusion?",
+   "answer": "Confusion uses mathematical complexity while diffusion breaks up patterns in plaintext.  Both have the ability to change half the bits of cyphertext with the change of one bit of plaintext.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the act of sharing a key with a third party?",
+   "answer": "Key Escrow",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are the main benefits of a stream cipher?",
+   "answer": "High performance and work well with data streams of arbitrary length.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "For what use are block ciphers best suited?",
+   "answer": "Bulk storage",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is a drawback of ECB?",
+   "answer": "Cannot provide semantic security, less secure as the message becomes longer.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is XOR?",
+   "answer": "Exclusive OR function, receives inputs based on binary values outputting single binary value.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does CBC work?",
+   "answer": "Does XOR operation on each block of plaintext using the previouz block of ciphertext combined with an initialization vector.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does CFB work?",
+   "answer": "Cipher FeedBack, like CBC but more like stream cipher, enables encryption of stream values without padding.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does OFB work?",
+   "answer": "Output FeedBack, like CFB with error correction.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does CTR work?",
+   "answer": "Counter, stream cipher where each block's encryption uses an incrementing counter.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does GCM work?",
+   "answer": "Counter mode with hash based authentication code.",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Nuemonic for symmetric encryption?",
+   "answer": "32BRAIDS",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 1 (3)",
+   "answer": "3DES 112 bit key strength, 80 bit effective",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 2 (2)",
+   "answer": "2 Fish 128, 192, 256 keys, 128 bit blocks",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 3 (B)",
+   "answer": "Blowfish 448bit 64 bit block",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 4 R",
+   "answer": "RC4 Ron's Cipher 1-4",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 5 A",
+   "answer": "AES (Rijndael) 128, 192, 256 key strength, 128 bit blocks",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 6 I",
+   "answer": "IDEA",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 7 D",
+   "answer": "DES 56 bit key, 64 bit block",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Symmetric 8 S",
+   "answer": "Serpent",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Nuemonic for asymmetric encryption?",
+   "answer": "DEERQ",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Asymmetric 1 D",
+   "answer": "Diffie Helman",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Asymmetric 2 E",
+   "answer": "El Gamal",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Asymmetric 3 E",
+   "answer": "Eliptical Curve Cryptography",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Asymmetric 4 R",
+   "answer": "RSA",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Asymmetric 5 Q",
+   "answer": "Quantum",
+   "topic": "cryptography",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How is Diffie Hellman generally used?",
+   "answer": "Key exchange",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What entity signs and revokes certificates?",
+   "answer": "Certificate Authority (CA)",
+   "topic": "PKI",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is OCSP?",
+   "answer": "Online Certificate Status Protocol, shows status of certificate, sends request to ca over HTTP",
+   "topic": "PKI",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is CRL?",
+   "answer": "Certificate Revocations List",
+   "topic": "PKI",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is static pinning?",
+   "answer": "Browser publisher pins keys of high traffic sites.",
+   "topic": "PKI",
+   "netplus": null,
+   "secplus": null
+ },
+ {
+   "question": "What is dynamic pinning?",
+   "answer": "Uses IETF standard HTTP Public Key Pinning (HPKP)",
+   "topic": "PKI",
+   "netplus": null,
+   "secplus": null
  }
 ]
