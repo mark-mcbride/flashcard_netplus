@@ -58,161 +58,161 @@
  {
    "question": "What is the first octet decimal range of a class A subnet?",
    "answer": "1-126",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the first octet decimal range of a class B subnet?",
    "answer": "128-191",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the first octet decimal range of a class C subnet?",
    "answer": "182-223",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the first octet decimal range of a class D subnet?",
    "answer": "224-239",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the first octet decimal range of a class E subnet?",
    "answer": "240-254",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the default subnet mask of a class A subnet?",
    "answer": "255.0.0.0",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the default subnet mask of a class B subnet?",
    "answer": "255.255.0.0",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the default subnet mask of a class C subnet?",
    "answer": "255.255.255.0",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the first octet high order bits of a class A subnet?",
    "answer": "0",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the first octet high order bits of a class B subnet?",
    "answer": "10",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the first octet high order bits of a class C subnet?",
    "answer": "110",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the first octet high order bits of a class D subnet?",
    "answer": "1110",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the first octet high order bits of a class E subnet?",
    "answer": "1111",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the address range of a class A network?",
    "answer": "10.0.0.0-10.255.255.255",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the address range of a class B network?",
    "answer": "172.16.0.0 - 172.31.255.255",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the address range of a class C network?",
    "answer": "192.168.0.0 - 192.168.255.255",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the loopback address?",
    "answer": "127.0.0.0 (127.x.y.z)",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is the address for APIPA?",
    "answer": "169.254.x.y",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "How many networks are available on a subnet?",
    "answer": "2^x where x=number of 1s set",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "How many hosts are available on a network?",
    "answer": "2^y where y=number of zeroes set",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What are the rules for writing an IPv6 address?",
    "answer": "1. You can group multiple sets of \"0000\" with \"::\" one time.  2. You can drop leading zeros. 3. you can replace \"0000\" with \"0\".",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "How is the subnet mask used?",
    "answer": "It is used by the local workstation to determine which subnet it's on.",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is CIDR notation for a network with the subnet mask of 255.255.255.0?",
    "answer": "slash 24",
-   "topic": "networking basics",
+   "topic": "subnetting",
    "netplus": true,
    "secplus": true
  },
@@ -766,6 +766,13 @@
    "question": "What service runs on port 9100?",
    "answer": "Jet Direct",
    "topic": "standard ports",
+   "netplus": true,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between the OSI model and the TCP/IP model?",
+   "answer": "Open Systems Interconnect (OSI) is primarily an education tool while the TCP/IP model is developed by the DOD to solve networking problems, and is maintained by the IETF.",
+   "topic": "osi model",
    "netplus": true,
    "secplus": true
  },
@@ -1583,91 +1590,98 @@
  },
  {
    "question": "What is a hot spare?",
-   "answer": "",
+   "answer": "Spare component that is connected, powered, and ready to automatically take over if the primary fails.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a cold spare",
-   "answer": "",
+   "answer": "Spare component kept in storage until needed.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a hot site",
-   "answer": "",
+   "answer": "Fully operational site which can be activated in hours or less depending on recovery plan.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a cold site",
-   "answer": "",
+   "answer": "Site space is set up in advance without hardware.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a warm site",
-   "answer": "",
+   "answer": "Site is partially set up with some hardware.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a full backup?",
-   "answer": "",
+   "answer": "Backs up all files regardless of archive bits, and clears all archive bits.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is an incremental backup?",
-   "answer": "",
+   "answer": "Backs up files with archive bit set, and clears bit.  Saves all changes since last full or incremental backup.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a differential backup?",
-   "answer": "",
+   "answer": "Backs up files with archive bit set, and does not clear bit.  Backs up changes made since last full backup.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
    "question": "What is a snapshot backup?",
-   "answer": "",
+   "answer": "Backup is performed from a virtual copy of running system.",
    "topic": "policy",
    "netplus": true,
    "secplus": true
  },
  {
+   "question": "What are some considerations for backups?",
+   "answer": "Keep clearly labeled, secure storage, encryption, store offsite, data destruction.",
+   "topic": "",
+   "netplus": null,
+   "secplus": null
+ },
+ {
    "question": "What is a policy?",
-   "answer": "",
+   "answer": "Formal identification of problem and scope.",
    "topic": "policy",
    "netplus": null,
    "secplus": null
  },
  {
    "question": "What is a standard?",
-   "answer": "",
+   "answer": "Mandatory action or rule to support policy.",
    "topic": "policy",
    "netplus": null,
    "secplus": null
  },
  {
    "question": "What is a guideline?",
-   "answer": "",
+   "answer": "Recommendation to users when specific standards do not apply.",
    "topic": "policy",
    "netplus": null,
    "secplus": null
  },
  {
    "question": "What is a procedure?",
-   "answer": "",
+   "answer": "Step by step instructions.",
    "topic": "policy",
    "netplus": null,
    "secplus": null
@@ -1785,30 +1799,23 @@
    "secplus": null
  },
  {
-   "question": "",
-   "answer": "",
-   "topic": "",
-   "netplus": null,
-   "secplus": null
- },
- {
    "question": "What is the XMAS atack?",
    "answer": "Network probe using TCP packet with all flags set.",
-   "topic": "",
+   "topic": "malware vectors, attacks",
    "netplus": null,
    "secplus": null
  },
  {
    "question": "What is fuzzing",
    "answer": "Network probe using random or invalid data in header fields or data inputs.",
-   "topic": "",
+   "topic": "malware vectors, attacks",
    "netplus": null,
    "secplus": null
  },
  {
    "question": "What is banner grabbing?",
    "answer": "Network probe sending routine packet to service.",
-   "topic": "",
+   "topic": "malware vectors, attacks",
    "netplus": null,
    "secplus": null
  },
@@ -2026,42 +2033,329 @@
    "question": "How is Diffie Hellman generally used?",
    "answer": "Key exchange",
    "topic": "",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
  },
  {
    "question": "What entity signs and revokes certificates?",
    "answer": "Certificate Authority (CA)",
    "topic": "PKI",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
  },
  {
    "question": "What is OCSP?",
    "answer": "Online Certificate Status Protocol, shows status of certificate, sends request to ca over HTTP",
    "topic": "PKI",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
  },
  {
    "question": "What is CRL?",
    "answer": "Certificate Revocations List",
    "topic": "PKI",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
  },
  {
    "question": "What is static pinning?",
    "answer": "Browser publisher pins keys of high traffic sites.",
    "topic": "PKI",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
  },
  {
    "question": "What is dynamic pinning?",
    "answer": "Uses IETF standard HTTP Public Key Pinning (HPKP)",
    "topic": "PKI",
-   "netplus": null,
-   "secplus": null
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is an ACL?",
+   "answer": "Access control list",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between IDS and IPS?",
+   "answer": "Intrusion Prevention System takes action to stop or block suspected attacks while Intrusion Detection System only monitors.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What solution must you use to ensure that no network attack can be launched from one network to another?",
+   "answer": "Airgap, complete isolation with no connectivity to outside networks",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What solution allows information to be sent one way into a network?",
+   "answer": "Unidirectional gateway, allows data one way without allowing information out.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Can an airgap protect against exfiltration or malware?",
+   "answer": "No.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How do you protect a network from all possible attacks?",
+   "answer": "You can't.  It is impossible to protect against ALL attacks.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are some switch security features?",
+   "answer": "Port security, MAC filtering, loop protection, flood guard.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between a stateless and stateful firewall?",
+   "answer": "Stateful firewall monitors session activity while stateless simply examines each packet.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does an application layer firewall work?",
+   "answer": "They use Deep Packet Inspection (DPI) to find irregularities that can be missed by SPI.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the most secure network configuration?",
+   "answer": "Dual firewall, DMZ protected by firewall and another firewall for interior network.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does a three homed firewall configuration work?",
+   "answer": "DMZ and interior network are each separately protected by a shared firewall.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is a dual homed server configuration?",
+   "answer": "Bastion hosts sit outside the firewall which protects the interior network.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are some methods of Network Access Control?",
+   "answer": "Guest network, posture assessment, and agents.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does a guest network protect your network?",
+   "answer": "Because guests are only provided internet access, they do not have access to your network.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is a posture assessment?",
+   "answer": "Client is placed on a quarantine network until they are verified to meet security rules.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How is a honeypot used?",
+   "answer": "Allows admin to detract and monitor intruder behavior.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is a WAF?",
+   "answer": "Web Application Firewall (WAF) sits between network and web server.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are some load balancing techniques?",
+   "answer": "SSL acceleration, data compression, health checking, TCP offloading and buffering, priority queuing, content caching.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What direction is considered forward for a proxy?",
+   "answer": "Facing outward from the network.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What does a reverse proxy do?",
+   "answer": "Mediates communications between internet clients and LAN servers.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Is SSL open source?",
+   "answer": "No, SSL was developed by Netscape.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Is TLS open source?",
+   "answer": "Yes.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What type of cryptography do SSL and TLS use?",
+   "answer": "Assymetric key exchange, symmetric bulk encryption.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What direction do SSL and TLS authenticate?",
+   "answer": "Dual authentication and one way are possible, but HTTPS usually only authenticates the server.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What applications use SSL encryption?",
+   "answer": "HTTPS, FTPS, SMTP, SNMPv3, EAP-TLS, SSL VPN",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "Which protocols are included in secure shell?",
+   "answer": "SCP, rsync, SFTP",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does S/MIME encrypt and authenticate?",
+   "answer": "x.509 certificates",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What layer 2 VPN solution offers native support by most operating systems?",
+   "answer": "Layer 2 Tunneling Protocol/Ipsec",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does PPTP work?",
+   "answer": "Point to Point Tunneling Protocol (PPTP) sends PPP packets over GRE.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is GRE?",
+   "answer": "Generic Routing Encapsulation (GRE) encapsulates L# protocol in a point to point link.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What protocols make up IPsec?",
+   "answer": "Internet Key Exchange (IKE), Authentication Header (AH), Encapsulation Security Payload (ESP).",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are the two modes of IPsec?",
+   "answer": "Tunnel mode and transport mode.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does Ipsec operate in tunnel mode?",
+   "answer": "Encapsulates IP packet with AH or ESP.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How does Ipsec operate in transport mode?",
+   "answer": "Encrypts payload.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the difference between FTPS and SFTP?",
+   "answer": "FTPS uses SSL while SFTP uses SSH2",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the smallest network segment?",
+   "answer": "Collision domain.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the fundamental unit of segmentation on a modern switched Ethernet network?",
+   "answer": "Broadcast domain.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is commonly the best L2 segmentation option?",
+   "answer": "Use VLANs to logically separate traffic on a physically switched network.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "How should network zones with different security needs be separated?",
+   "answer": "Chokepoints, no traffic should be allowed to bass between networks without evaluation by a secured chokepoint.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What are some considerations in placing a chokepoint?",
+   "answer": "They are a good place for firewalls and IDS and IPS, but ensure the chokepoint can handle epected traffic.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
+ },
+ {
+   "question": "What is the primary device for separating broadcast domains?",
+   "answer": "Router.",
+   "topic": "network defense",
+   "netplus": false,
+   "secplus": true
  }
 ]
