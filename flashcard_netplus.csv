@@ -7,29 +7,29 @@ What is the smallest unit of data?,Bit.,networking basics,TRUE,TRUE
 What is a networking device?,Node that functions as part of the network structure.,networking basics,TRUE,TRUE
 What device separates collision domains?,Switch,networking basics,TRUE,TRUE
 What device separates broadcast domains?,Router,networking basics,TRUE,TRUE
-What is the first octet decimal range of a class A subnet?,1-126,networking basics,TRUE,TRUE
-What is the first octet decimal range of a class B subnet?,128-191,networking basics,TRUE,TRUE
-What is the first octet decimal range of a class C subnet?,182-223,networking basics,TRUE,TRUE
-What is the first octet decimal range of a class D subnet?,224-239,networking basics,TRUE,TRUE
-What is the first octet decimal range of a class E subnet?,240-254,networking basics,TRUE,TRUE
-What is the default subnet mask of a class A subnet?,255.0.0.0,networking basics,TRUE,TRUE
-What is the default subnet mask of a class B subnet?,255.255.0.0,networking basics,TRUE,TRUE
-What is the default subnet mask of a class C subnet?,255.255.255.0,networking basics,TRUE,TRUE
-What are the first octet high order bits of a class A subnet?,0,networking basics,TRUE,TRUE
-What are the first octet high order bits of a class B subnet?,10,networking basics,TRUE,TRUE
-What are the first octet high order bits of a class C subnet?,110,networking basics,TRUE,TRUE
-What are the first octet high order bits of a class D subnet?,1110,networking basics,TRUE,TRUE
-What are the first octet high order bits of a class E subnet?,1111,networking basics,TRUE,TRUE
-What is the address range of a class A network?,10.0.0.0-10.255.255.255,networking basics,TRUE,TRUE
-What is the address range of a class B network?,172.16.0.0 - 172.31.255.255,networking basics,TRUE,TRUE
-What is the address range of a class C network?,192.168.0.0 - 192.168.255.255,networking basics,TRUE,TRUE
-What is the loopback address?,127.0.0.0 (127.x.y.z),networking basics,TRUE,TRUE
-What is the address for APIPA?,169.254.x.y,networking basics,TRUE,TRUE
-How many networks are available on a subnet?,2^x where x=number of 1s set,networking basics,TRUE,TRUE
-How many hosts are available on a network?,2^y where y=number of zeroes set,networking basics,TRUE,TRUE
-What are the rules for writing an IPv6 address?,"1. You can group multiple sets of ""0000"" with ""::"" one time.  2. You can drop leading zeros. 3. you can replace ""0000"" with ""0"".",networking basics,TRUE,TRUE
-How is the subnet mask used?,It is used by the local workstation to determine which subnet it's on.,networking basics,TRUE,TRUE
-What is CIDR notation for a network with the subnet mask of 255.255.255.0?,slash 24,networking basics,TRUE,TRUE
+What is the first octet decimal range of a class A subnet?,1-126,subnetting,TRUE,TRUE
+What is the first octet decimal range of a class B subnet?,128-191,subnetting,TRUE,TRUE
+What is the first octet decimal range of a class C subnet?,182-223,subnetting,TRUE,TRUE
+What is the first octet decimal range of a class D subnet?,224-239,subnetting,TRUE,TRUE
+What is the first octet decimal range of a class E subnet?,240-254,subnetting,TRUE,TRUE
+What is the default subnet mask of a class A subnet?,255.0.0.0,subnetting,TRUE,TRUE
+What is the default subnet mask of a class B subnet?,255.255.0.0,subnetting,TRUE,TRUE
+What is the default subnet mask of a class C subnet?,255.255.255.0,subnetting,TRUE,TRUE
+What are the first octet high order bits of a class A subnet?,0,subnetting,TRUE,TRUE
+What are the first octet high order bits of a class B subnet?,10,subnetting,TRUE,TRUE
+What are the first octet high order bits of a class C subnet?,110,subnetting,TRUE,TRUE
+What are the first octet high order bits of a class D subnet?,1110,subnetting,TRUE,TRUE
+What are the first octet high order bits of a class E subnet?,1111,subnetting,TRUE,TRUE
+What is the address range of a class A network?,10.0.0.0-10.255.255.255,subnetting,TRUE,TRUE
+What is the address range of a class B network?,172.16.0.0 - 172.31.255.255,subnetting,TRUE,TRUE
+What is the address range of a class C network?,192.168.0.0 - 192.168.255.255,subnetting,TRUE,TRUE
+What is the loopback address?,127.0.0.0 (127.x.y.z),subnetting,TRUE,TRUE
+What is the address for APIPA?,169.254.x.y,subnetting,TRUE,TRUE
+How many networks are available on a subnet?,2^x where x=number of 1s set,subnetting,TRUE,TRUE
+How many hosts are available on a network?,2^y where y=number of zeroes set,subnetting,TRUE,TRUE
+What are the rules for writing an IPv6 address?,"1. You can group multiple sets of ""0000"" with ""::"" one time.  2. You can drop leading zeros. 3. you can replace ""0000"" with ""0"".",subnetting,TRUE,TRUE
+How is the subnet mask used?,It is used by the local workstation to determine which subnet it's on.,subnetting,TRUE,TRUE
+What is CIDR notation for a network with the subnet mask of 255.255.255.0?,slash 24,subnetting,TRUE,TRUE
 How many bits is an IPv6 address?,128 bits,networking basics,TRUE,TRUE
 What is the top level domain?,".com, .net etc",networking basics,TRUE,TRUE
 What service translates a url to an ip address?,DNS,networking basics,TRUE,TRUE
@@ -109,6 +109,7 @@ What service runs on port 1723?,PPTP,standard ports,TRUE,TRUE
 What service runs on port 1812?,RADIUS,standard ports,TRUE,TRUE
 What service runs on port 3389?,RDP,standard ports,TRUE,TRUE
 What service runs on port 9100?,Jet Direct,standard ports,TRUE,TRUE
+What is the difference between the OSI model and the TCP/IP model?,"Open Systems Interconnect (OSI) is primarily an education tool while the TCP/IP model is developed by the DOD to solve networking problems, and is maintained by the IETF.",osi model,TRUE,TRUE
 What OSI layer is TCP?,Transport Layer (4),osi model,TRUE,TRUE
 What OSI layer is HTTP?,Application Layer (7),osi model,TRUE,TRUE
 "What OSI layer is responsible for character encoding, data compression, and encryption/decryption?",Presentation Layer (6),osi model,TRUE,TRUE
@@ -225,19 +226,20 @@ How are network topologies used to increase network redundancy?,"Mesh topology, 
 How is load balancing used to increase redundancy?,Failure of one server reduces performance but does not interrupt service.,,TRUE,TRUE
 How does clustering increase redundancy?,Multiple servers in a cluster can dynamically reallocate duties after detecting the failure of one or more server.,,TRUE,TRUE
 How is virtualization used to increase redundancy?,Flexible on demand solutions can be stood up quickly and automatically.,,TRUE,TRUE
-What is a hot spare?,,policy,TRUE,TRUE
-What is a cold spare,,policy,TRUE,TRUE
-What is a hot site,,policy,TRUE,TRUE
-What is a cold site,,policy,TRUE,TRUE
-What is a warm site,,policy,TRUE,TRUE
-What is a full backup?,,policy,TRUE,TRUE
-What is an incremental backup?,,policy,TRUE,TRUE
-What is a differential backup?,,policy,TRUE,TRUE
-What is a snapshot backup?,,policy,TRUE,TRUE
-What is a policy?,,policy,,
-What is a standard?,,policy,,
-What is a guideline?,,policy,,
-What is a procedure?,,policy,,
+What is a hot spare?,"Spare component that is connected, powered, and ready to automatically take over if the primary fails.",policy,TRUE,TRUE
+What is a cold spare,Spare component kept in storage until needed.,policy,TRUE,TRUE
+What is a hot site,Fully operational site which can be activated in hours or less depending on recovery plan.,policy,TRUE,TRUE
+What is a cold site,Site space is set up in advance without hardware.,policy,TRUE,TRUE
+What is a warm site,Site is partially set up with some hardware.,policy,TRUE,TRUE
+What is a full backup?,"Backs up all files regardless of archive bits, and clears all archive bits.",policy,TRUE,TRUE
+What is an incremental backup?,"Backs up files with archive bit set, and clears bit.  Saves all changes since last full or incremental backup.",policy,TRUE,TRUE
+What is a differential backup?,"Backs up files with archive bit set, and does not clear bit.  Backs up changes made since last full backup.",policy,TRUE,TRUE
+What is a snapshot backup?,Backup is performed from a virtual copy of running system.,policy,TRUE,TRUE
+What are some considerations for backups?,"Keep clearly labeled, secure storage, encryption, store offsite, data destruction.",,,
+What is a policy?,Formal identification of problem and scope.,policy,,
+What is a standard?,Mandatory action or rule to support policy.,policy,,
+What is a guideline?,Recommendation to users when specific standards do not apply.,policy,,
+What is a procedure?,Step by step instructions.,policy,,
 What are 4 mobile device policies?,"COBO, BYOD, COPE, CYOD ",policy,,
 What is COBO?,"Corporate owned, business only",policy,,
 What is BYOD?,Bring your own device,policy,,
@@ -254,10 +256,9 @@ What does a worm do?,Replicates itself by exploiting system vulnerabilities.,"ma
 What does a trojan do?,Masquerades as a harmless or useful program.,"malware vectors, attacks",,
 What does a logic bomb do?,Lies dormant until certain condition is met.,"malware vectors, attacks",,
 How does a watering hole work?,Infect site to attack site's users.,"malware vectors, attacks",,
-,,,,
-What is the XMAS atack?,Network probe using TCP packet with all flags set.,,,
-What is fuzzing,Network probe using random or invalid data in header fields or data inputs.,,,
-What is banner grabbing?,Network probe sending routine packet to service.,,,
+What is the XMAS atack?,Network probe using TCP packet with all flags set.,"malware vectors, attacks",,
+What is fuzzing,Network probe using random or invalid data in header fields or data inputs.,"malware vectors, attacks",,
+What is banner grabbing?,Network probe sending routine packet to service.,"malware vectors, attacks",,
 What type of encryption protects data in transit?,Transport encryption,cryptography,FALSE,TRUE
 What type of encryption protects data at rest?,Storage encryption,cryptography,FALSE,TRUE
 What type of encryption protects data in use?,Memory encryption,cryptography,FALSE,TRUE
@@ -288,9 +289,50 @@ Asymmetric 2 E,El Gamal,cryptography,FALSE,TRUE
 Asymmetric 3 E,Eliptical Curve Cryptography,cryptography,FALSE,TRUE
 Asymmetric 4 R,RSA,cryptography,FALSE,TRUE
 Asymmetric 5 Q,Quantum,cryptography,FALSE,TRUE
-How is Diffie Hellman generally used?,Key exchange,,,
-What entity signs and revokes certificates?,Certificate Authority (CA),PKI,,
-What is OCSP?,"Online Certificate Status Protocol, shows status of certificate, sends request to ca over HTTP",PKI,,
-What is CRL?,Certificate Revocations List,PKI,,
-What is static pinning?,Browser publisher pins keys of high traffic sites.,PKI,,
-What is dynamic pinning?,Uses IETF standard HTTP Public Key Pinning (HPKP),PKI,,
+How is Diffie Hellman generally used?,Key exchange,,FALSE,TRUE
+What entity signs and revokes certificates?,Certificate Authority (CA),PKI,FALSE,TRUE
+What is OCSP?,"Online Certificate Status Protocol, shows status of certificate, sends request to ca over HTTP",PKI,FALSE,TRUE
+What is CRL?,Certificate Revocations List,PKI,FALSE,TRUE
+What is static pinning?,Browser publisher pins keys of high traffic sites.,PKI,FALSE,TRUE
+What is dynamic pinning?,Uses IETF standard HTTP Public Key Pinning (HPKP),PKI,FALSE,TRUE
+What is an ACL?,Access control list,network defense,FALSE,TRUE
+What is the difference between IDS and IPS?,Intrusion Prevention System takes action to stop or block suspected attacks while Intrusion Detection System only monitors.,network defense,FALSE,TRUE
+What solution must you use to ensure that no network attack can be launched from one network to another?,"Airgap, complete isolation with no connectivity to outside networks",network defense,FALSE,TRUE
+What solution allows information to be sent one way into a network?,"Unidirectional gateway, allows data one way without allowing information out.",network defense,FALSE,TRUE
+Can an airgap protect against exfiltration or malware?,No.,network defense,FALSE,TRUE
+How do you protect a network from all possible attacks?,You can't.  It is impossible to protect against ALL attacks.,network defense,FALSE,TRUE
+What are some switch security features?,"Port security, MAC filtering, loop protection, flood guard.",network defense,FALSE,TRUE
+What is the difference between a stateless and stateful firewall?,Stateful firewall monitors session activity while stateless simply examines each packet.,network defense,FALSE,TRUE
+How does an application layer firewall work?,They use Deep Packet Inspection (DPI) to find irregularities that can be missed by SPI.,network defense,FALSE,TRUE
+What is the most secure network configuration?,"Dual firewall, DMZ protected by firewall and another firewall for interior network.",network defense,FALSE,TRUE
+How does a three homed firewall configuration work?,DMZ and interior network are each separately protected by a shared firewall.,network defense,FALSE,TRUE
+What is a dual homed server configuration?,Bastion hosts sit outside the firewall which protects the interior network.,network defense,FALSE,TRUE
+What are some methods of Network Access Control?,"Guest network, posture assessment, and agents.",network defense,FALSE,TRUE
+How does a guest network protect your network?,"Because guests are only provided internet access, they do not have access to your network.",network defense,FALSE,TRUE
+What is a posture assessment?,Client is placed on a quarantine network until they are verified to meet security rules.,network defense,FALSE,TRUE
+How is a honeypot used?,Allows admin to detract and monitor intruder behavior.,network defense,FALSE,TRUE
+What is a WAF?,Web Application Firewall (WAF) sits between network and web server.,network defense,FALSE,TRUE
+What are some load balancing techniques?,"SSL acceleration, data compression, health checking, TCP offloading and buffering, priority queuing, content caching.",network defense,FALSE,TRUE
+What direction is considered forward for a proxy?,Facing outward from the network.,network defense,FALSE,TRUE
+What does a reverse proxy do?,Mediates communications between internet clients and LAN servers.,network defense,FALSE,TRUE
+Is SSL open source?,"No, SSL was developed by Netscape.",network defense,FALSE,TRUE
+Is TLS open source?,Yes.,network defense,FALSE,TRUE
+What type of cryptography do SSL and TLS use?,"Assymetric key exchange, symmetric bulk encryption.",network defense,FALSE,TRUE
+What direction do SSL and TLS authenticate?,"Dual authentication and one way are possible, but HTTPS usually only authenticates the server.",network defense,FALSE,TRUE
+What applications use SSL encryption?,"HTTPS, FTPS, SMTP, SNMPv3, EAP-TLS, SSL VPN",network defense,FALSE,TRUE
+Which protocols are included in secure shell?,"SCP, rsync, SFTP",network defense,FALSE,TRUE
+How does S/MIME encrypt and authenticate?,x.509 certificates,network defense,FALSE,TRUE
+What layer 2 VPN solution offers native support by most operating systems?,Layer 2 Tunneling Protocol/Ipsec,network defense,FALSE,TRUE
+How does PPTP work?,Point to Point Tunneling Protocol (PPTP) sends PPP packets over GRE.,network defense,FALSE,TRUE
+What is GRE?,Generic Routing Encapsulation (GRE) encapsulates L# protocol in a point to point link.,network defense,FALSE,TRUE
+What protocols make up IPsec?,"Internet Key Exchange (IKE), Authentication Header (AH), Encapsulation Security Payload (ESP).",network defense,FALSE,TRUE
+What are the two modes of IPsec?,Tunnel mode and transport mode.,network defense,FALSE,TRUE
+How does Ipsec operate in tunnel mode?,Encapsulates IP packet with AH or ESP.,network defense,FALSE,TRUE
+How does Ipsec operate in transport mode?,Encrypts payload.,network defense,FALSE,TRUE
+What is the difference between FTPS and SFTP?,FTPS uses SSL while SFTP uses SSH2,network defense,FALSE,TRUE
+What is the smallest network segment?,Collision domain.,network defense,FALSE,TRUE
+What is the fundamental unit of segmentation on a modern switched Ethernet network?,Broadcast domain.,network defense,FALSE,TRUE
+What is commonly the best L2 segmentation option?,Use VLANs to logically separate traffic on a physically switched network.,network defense,FALSE,TRUE
+How should network zones with different security needs be separated?,"Chokepoints, no traffic should be allowed to bass between networks without evaluation by a secured chokepoint.",network defense,FALSE,TRUE
+What are some considerations in placing a chokepoint?,"They are a good place for firewalls and IDS and IPS, but ensure the chokepoint can handle epected traffic.",network defense,FALSE,TRUE
+What is the primary device for separating broadcast domains?,Router.,network defense,FALSE,TRUE
